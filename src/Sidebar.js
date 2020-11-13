@@ -8,13 +8,12 @@ import ExpandMoreOutlined from "@material-ui/icons/ExpandMoreOutlined";
 import EmojiFlagsIcon from "@material-ui/icons/EmojiFlags";
 import PeopleIcon from "@material-ui/icons/People";
 import StorefrontIcon from "@material-ui/icons/Storefront";
+import { useStateValue } from "./StateProvider";
 function Sidebar() {
+  const [{ user }, dispatch] = useStateValue();
   return (
     <div className="sidebar">
-      <SidebarRow
-        src="https://scontent.fdac17-1.fna.fbcdn.net/v/t1.0-1/p160x160/115803624_3119785601450509_4958406722022361535_o.jpg?_nc_cat=108&ccb=2&_nc_sid=dbb9e7&_nc_ohc=WFoEkxHNErcAX8ZLtaa&_nc_ht=scontent.fdac17-1.fna&tp=6&oh=146a7a06140e0fc76598d950974610f2&oe=5FD2D089"
-        title="faiz ahmed"
-      />
+      <SidebarRow src={user.photoURL} title={user.displayName} />
       <SidebarRow
         Icon={LocalHospitalIcon}
         title="COVID-19 Information Center"

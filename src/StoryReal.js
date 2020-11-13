@@ -24,6 +24,11 @@ function StoryReal() {
         profileSrc="https://scontent.fdac17-1.fna.fbcdn.net/v/t1.0-1/c0.0.720.720a/p720x720/118315947_3647105712006750_8881894954238361394_o.jpg?_nc_cat=106&ccb=2&_nc_sid=dbb9e7&_nc_ohc=yW3LtXx_PD4AX9N5Gf1&_nc_ht=scontent.fdac17-1.fna&tp=27&oh=9fecb9e7ed36a388b8326d23255a9117&oe=5FD38EF7"
         title="Raju Ahmed"
       />
+      <Story
+        image="https://filedn.com/ltOdFv1aqz1YIFhf4gTY8D7/ingus-info/BLOGS/Photography-stocks3/stock-photography-slider.jpg"
+        profileSrc="https://scontent.fdac17-1.fna.fbcdn.net/v/t1.0-1/p720x720/115803624_3119785601450509_4958406722022361535_o.jpg?_nc_cat=108&ccb=2&_nc_sid=dbb9e7&_nc_ohc=WFoEkxHNErcAX8ZLtaa&_nc_ht=scontent.fdac17-1.fna&tp=6&oh=0be3195e96145c5dc9b520207d018b5d&oe=5FD048DF"
+        title="Faiz Ahmed"
+      />
     </div>
   );
 }
